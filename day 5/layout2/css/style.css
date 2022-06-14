@@ -1,0 +1,86 @@
+/* common css */
+body{
+	margin: 0px;
+}
+*{
+	box-sizing: border-box;
+}
+
+ /*for header tage  */
+.header{
+	background-color: gray;
+	/*padding: 10px;*/
+	height: 50px;
+}
+
+.header .logo{
+	float: left;
+	width: 25%;
+	/*padding: 10px;*/
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	padding: 0px 20px;
+}
+.header .nav{
+	float: right;
+	width: 50%;
+	/*padding: 10px;*/
+	line-height: 50px;
+}
+
+/* for banner */
+.banner{
+	background-color: gray;
+	/*height: 150px;*/
+	margin-top: 10px;
+
+}
+.banner .inner-banner{
+	text-align: center;
+	padding: 70px 0px;
+}
+
+/*for intro area*/
+.intro{
+	background-color: gray;
+	margin-top: 10px;
+}
+.div_intro{
+	text-align: center;
+	padding: 40px;
+}
+
+
+/*box  layout*/
+
+.container{
+	/*background-color: gray;*/
+	margin-top: 10px;
+}
+.container .box{
+	float: left;
+	/*background-color: gray;*/
+	width: 33.33%;
+	text-align: center;
+	
+}
+
+.container .box .inner_box{
+	margin: 20px;
+}
+
+.bg_gray{
+	padding: 200px 0px;
+	background-color: gray;
+}
+
+/*for footer*/
+
+.footer{
+	clear: both;
+	margin-top: 10px;
+	background-color: gray;
+	text-align: center;
+	padding: 10px;
+}

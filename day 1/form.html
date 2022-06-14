@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form Tage</title>
+</head>
+<body>
+	<h1 align="center" >Stuent Register Form</h1>
+	<hr />
+	<form action="submit.html" method="get">
+		<table align="center" cellpadding="10">
+			<tbody>
+				<tr>
+					<td>
+						<label for="name">name</label> </td>
+					<td> : </td>
+					<td>
+						<input type="text" id="name" name="name" minlength="2" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="email">email</label> </td>
+					<td> : </td>
+					<td>
+						<input type="email" id="email" name="email" minlength="2" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="phone_no">phone_no</label> </td>
+					<td> : </td>
+					<td>
+						<input type="number" id="phone_no" name="phone_no" minlength="2" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label >Hobby</label> </td>
+					<td> : </td>
+					<td>
+						<input type="checkbox" id="phone_no" name="Hobby[]" minlength="2"  required> hobby 1
+						<input type="checkbox" id="phone_no" name="Hobby[]" minlength="2" checked required> hobby 2
+						<input type="checkbox" id="phone_no" name="Hobby[]" minlength="2" required> hobby 3
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label >city</label> </td>
+					<td> : </td>
+					<td>
+						<select name="city" >
+							<option value="1">city 1</option>
+							<option selected>city 2</option>
+							<option>city 3</option>
+							<option>city 4</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="bod">BOD</label> </td>
+					<td> : </td>
+					<td>
+						<input type="date" id="bod" name="bod" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="range">range</label> </td>
+					<td> : </td>
+					<td>
+						<input type="range" id="range" name="range" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="color">color</label> </td>
+					<td> : </td>
+					<td>
+						<input type="color" id="color" name="color" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Password</label> </td>
+					<td> : </td>
+					<td>
+						<input type="password" placeholder="*******" name="password" required>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="3">
+						<input type="submit" name="">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		
+
+
+
+
+	</form>
+</body>
+</html>

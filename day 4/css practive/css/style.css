@@ -1,0 +1,34 @@
+/*@font-face{
+	src: url('../font/Harland Roselyn.ttf');
+	font-family: ketanfont;
+}
+
+*{
+	font-family: ketanfont;
+}
+*/
+/*h1{
+	font-family: ketanfont;
+}*/
+#slider .slider-imgs .imgs-slider{
+	width: 75%;
+	padding: 20px;
+	height: 150px;
+}
+
+.float-left{
+	float: left;
+}
+.img-slider{
+	width: 100%;
+	height: 600px;
+}
+
+.w30{
+	width: 30%;
+	box-sizing: border-box;
+}
+.w70{
+	width: 70%;
+	box-sizing: border-box;
+}

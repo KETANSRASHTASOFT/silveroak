@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+	<!-- <button id="hide">hide</button>
+	<button id="show">show</button> -->
+	<!-- <button id="toggle">toggle</button> -->
+	<!-- <p id="details1">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p id="details2">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p> -->
+	<section id="section1">
+		<h1 align="center">
+			Student Details 
+		</h1>
+		<hr>
+		<table align="center">
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td><input id="name" type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td>Roll no</td>
+					<td>:</td>
+					<td><input id="roll_no" type="number" name="rollno"></td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="next1" class="btn_next">Next</button>
+	</section>
+	<section id="section2">
+		<h1 align="center">
+			Student Marks 
+		</h1>
+		<hr>
+		<table align="center">
+			<tbody>
+				<tr>
+					<td>sub1</td>
+					<td>:</td>
+					<td><input id="sub1" type="text" name="sub1"></td>
+				</tr>
+				<tr>
+					<td>sub 2</td>
+					<td>:</td>
+					<td><input id="sub2" type="number" name="sub2"></td>
+				</tr>
+			</tbody>
+
+		</table>
+		<button id="student_details" class="btn_prev">Student Details</button>
+		<button id="print" class="btn_next">Print MarkSheet</button>
+	</section>
+	<section id="section3">
+		<h1 align="center">
+			Student Marks sheet(all data)
+		</h1>
+		<hr>
+		<table align="center">
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td><span id="print_name"></span></td>
+				</tr>
+				<tr>
+					<td>Roll no</td>
+					<td>:</td>
+					<td><span id="print_roll_no"></span></td>
+				</tr>
+				<tr>
+					<td>sub1</td>
+					<td>:</td>
+					<td><span id="print_sub1"></span>/100</td>
+				</tr>
+				<tr>
+					<td>sub 2</td>
+					<td>:</td>
+					<td><span id="print_sub2"></span>/100</td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="mark" class="btn_prev">Student mark</button>
+	</section>
+
+</body>
+</html>

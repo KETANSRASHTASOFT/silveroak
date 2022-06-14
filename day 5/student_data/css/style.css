@@ -1,0 +1,36 @@
+section{
+	border: 2px solid black;
+	height: 300px;
+	margin: 10px;
+	position: relative;
+
+}
+.btn_next{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	background-color: lightblue;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+.btn_prev{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	background-color: lightblue;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+
+.bg_lgray{
+	background-color: lightgray;
+}
+.bg_gray{
+	background-color: gray;
+}
+.bg_dgray{
+	background-color: darkgray;
+}
+
+
